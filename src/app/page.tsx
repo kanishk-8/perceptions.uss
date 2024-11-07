@@ -6,9 +6,14 @@ export default function Home() {
   return (
     <>
       {/* First Section */}
-      <div className="h-3/4 bg-primarycolor text-primarytext">
+      <div className="h-1/5 md:h-3/4  bg-primarycolor text-primarytext">
         <SpotlightPreview />
-        <Card />
+        <div className="flex absolute bottom-30 md:bottom-10 w-full justify-around">
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+        </div>
       </div>
 
       {/* Second Section */}
