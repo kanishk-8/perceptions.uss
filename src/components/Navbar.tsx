@@ -4,7 +4,7 @@ import React from "react";
 
 const Navbar: React.FC = () => {
   return (
-    <nav className="flex justify-between items-center p-1 bg-primarycolor text-white">
+    <nav className="flex justify-between items-center p-1 bg-transparent absolute top-0 left-0 w-full z-10 text-white">
       <Link href="/">
         <Image src="/perception wbg.png" alt="logo" width={100} height={100} />
       </Link>
